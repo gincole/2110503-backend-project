@@ -14,7 +14,7 @@ const app = express();
 
 // Enable CORS
 app.use(cors({
-    origin: 'http://localhost:3000',
+    origin: 'https://2110507-frontend-project-butterbear.vercel.app',
     credentials: true,
   }));
 
